@@ -1,0 +1,69 @@
+body {
+    margin: 0; 
+    border: 0;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: brown;
+}
+
+.container {
+    margin: 100px;
+    border: 2px solid rgb(246, 185, 111);
+    border-radius: 15px;
+    background-color: rgb(240, 209, 170);
+}
+
+.main-cartoon {
+    margin: 25px;
+    border: 2px solid rgb(255, 136, 0);
+    border-radius: 15px;
+    background-color: rgb(240, 225, 207);  
+    padding-left: 80px; 
+    padding-right: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.elemento-cartoon {
+    margin: 25px;
+    border: 1px solid rgb(239, 214, 184);
+}
+
+.tom-cartoon {
+    width: 340px;
+    height: 260px;
+    border-radius: 15px;
+}
+
+.form-cartoon {
+    padding-top: 50px;
+    padding-left: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.box-cartoon {
+    width: 330px;
+    height: 22px;
+
+    font-size: 14px;
+    border: 1px rgb(0, 0, 0);
+    border-radius: 5px;
+    background-color: beige;
+
+}
+
+.botao-cartoon {
+    width: 165px;
+    height: 24px;
+    color: rgb(94, 91, 91);
+    background-color: rgb(226, 114, 114);
+    border-radius: 5px; 
+    border: 1px rgb(0, 0, 0);
+}
